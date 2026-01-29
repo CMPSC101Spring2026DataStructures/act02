@@ -2,13 +2,13 @@
 
 Activity 02: Getting Started with UV Package Manager
 
-## Assigned: Wednesday, 30th January 2026
+## Assigned: Friday, 30th January 2026
 
 ## Due: END OF CLASS: Friday, 30th January 2026, by 11:00am via GitHub
 
 ## Table of contents
 - [CS101: Data Structures](#cs101-data-structures)
-  - [Assigned: Wednesday, 30th January 2026](#assigned-wednesday-30th-january-2026)
+  - [Assigned: Friday, 30th January 2026](#assigned-friday-30th-january-2026)
   - [Due: END OF CLASS: Friday, 30th January 2026, by 11:00am via GitHub](#due-end-of-class-friday-30th-january-2026-by-1100am-via-github)
   - [Table of contents](#table-of-contents)
   - [Deliverables](#deliverables)
