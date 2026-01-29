@@ -1,0 +1,49 @@
+# --> check the Python programs in tutorials
+- tutorials/tutorial_01_basic_plotting/plotting.py:
+  - description: Ensure that the plotting.py file exists in tutorial_01
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in plotting.py
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+- tutorials/tutorial_02_prime_distribution/primes.py:
+  - description: Ensure that the primes.py file exists in tutorial_02
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in primes.py
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+- writing/reflection.md:
+  - description: Ensure that reflection.md file exists in the writing/ directory
+    check: ConfirmFileExists
+  - description: Complete all TODOs, remove the TODO markers in the reflection.md
+    check: MatchFileFragment
+    options:
+      fragment: TODO
+      count: 0
+      exact: true
+  - description: Write your name and then remove the the 'Add Your Name Here' prompt in the reflection file
+    check: MatchFileFragment
+    options:
+      fragment: "Add Your Name Here"
+      count: 0
+      exact: true
+
+# --> check README files exist
+- tutorials/tutorial_01_basic_plotting/README.md:
+  - description: Ensure that README.md exists in tutorial_01
+    check: ConfirmFileExists
+
+- tutorials/tutorial_02_prime_distribution/README.md:
+  - description: Ensure that README.md exists in tutorial_02
+    check: ConfirmFileExists
+
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum number of commits (5) in repository
+  check: CountCommits
+  options:
+    count: 5
